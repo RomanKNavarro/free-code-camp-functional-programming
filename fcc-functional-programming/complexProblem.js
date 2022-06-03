@@ -5,6 +5,6 @@ const squareList = arr => {
 const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
 const squared2 = squareList([4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2]);
 console.log(squaredIntegers);
-console.log(squared2);
+return squared2;
 
 // FINISHED. NOT COMPLEX AT ALL
