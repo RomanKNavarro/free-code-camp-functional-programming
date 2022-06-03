@@ -9,5 +9,3 @@ function urlSlug(title) {
   return title.split(' ').filter(letter => letter != '').map(letter => letter.toLowerCase()).join('-');
 }
 // Only change code above this line
-console.log(urlSlug("Winter Is Coming"));
-console.log(urlSlug(" Winter Is  Coming"));
